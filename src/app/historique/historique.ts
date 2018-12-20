@@ -1,0 +1,21 @@
+export interface Historique {
+    id;
+    parentActivityInstanceId;
+    activityId;
+    activityName;
+    activityType;
+    processDefinitionKey;
+    processDefinitionId;
+    processInstanceId;
+    executionId;
+    taskId;
+    calledProcessInstanceId;
+    calledCaseInstanceId;
+    assignee;
+    startTime;
+    endTime;
+    durationInMillis;
+    canceled;
+    completeScope;
+    tenantId;
+}
